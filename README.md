@@ -130,6 +130,3 @@ Text(title)
 
 ## 결론
 이 프로젝트를 통해 SwiftUI에서 `@State`를 활용한 상태 관리, `List`를 활용한 동적 UI 구성, `alert`을 활용한 사용자 피드백 제공 등을 학습할 수 있었습니다. 또한, 직관적인 UI 디자인을 위해 `RoundedRectangle`, `shadow`, `padding` 등의 SwiftUI 스타일링 요소를 활용하였습니다.
-
-이제 이 내용을 깃허브에 `README.md` 파일로 저장하고 프로젝트를 관리하면 좋습니다!
-
