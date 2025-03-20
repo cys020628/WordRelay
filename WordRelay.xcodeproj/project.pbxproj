@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		388D68C82D8BE5EC0088F828 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D68C52D8BE5EC0088F828 /* ContentView.swift */; };
+		388D68C92D8BE5EC0088F828 /* WordRelayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D68C62D8BE5EC0088F828 /* WordRelayApp.swift */; };
+		388D68CA2D8BE5EC0088F828 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388D68C22D8BE5EC0088F828 /* Preview Assets.xcassets */; };
+		388D68CB2D8BE5EC0088F828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388D68C42D8BE5EC0088F828 /* Assets.xcassets */; };
+		388D68CE2D8BE5EF0088F828 /* WordRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D68CC2D8BE5EF0088F828 /* WordRelayTests.swift */; };
+		388D68D22D8BE5F20088F828 /* WordRelayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D68CF2D8BE5F20088F828 /* WordRelayUITests.swift */; };
+		388D68D32D8BE5F20088F828 /* WordRelayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D68D02D8BE5F20088F828 /* WordRelayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		388D68A42D8BAC880088F828 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,18 @@
 		388D68932D8BAC870088F828 /* WordRelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordRelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388D68A32D8BAC880088F828 /* WordRelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388D68AD2D8BAC880088F828 /* WordRelayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRelayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D68C02D8BC8210088F828 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		388D68C12D8BE57C0088F828 /* ForLoop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForLoop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		388D68C22D8BE5EC0088F828 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		388D68C42D8BE5EC0088F828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388D68C52D8BE5EC0088F828 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		388D68C62D8BE5EC0088F828 /* WordRelayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRelayApp.swift; sourceTree = "<group>"; };
+		388D68CC2D8BE5EF0088F828 /* WordRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRelayTests.swift; sourceTree = "<group>"; };
+		388D68CF2D8BE5F20088F828 /* WordRelayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRelayUITests.swift; sourceTree = "<group>"; };
+		388D68D02D8BE5F20088F828 /* WordRelayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRelayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		388D68D52D8C0ABF0088F828 /* If.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = If.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		388D68D62D8C0D900088F828 /* FirstAndLast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FirstAndLast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		388D68952D8BAC870088F828 /* WordRelay */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordRelay;
-			sourceTree = "<group>";
-		};
-		388D68A62D8BAC880088F828 /* WordRelayTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordRelayTests;
-			sourceTree = "<group>";
-		};
-		388D68B02D8BAC880088F828 /* WordRelayUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WordRelayUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		388D68902D8BAC870088F828 /* Frameworks */ = {
@@ -75,9 +78,13 @@
 		388D688A2D8BAC870088F828 = {
 			isa = PBXGroup;
 			children = (
-				388D68952D8BAC870088F828 /* WordRelay */,
-				388D68A62D8BAC880088F828 /* WordRelayTests */,
-				388D68B02D8BAC880088F828 /* WordRelayUITests */,
+				388D68D62D8C0D900088F828 /* FirstAndLast.playground */,
+				388D68D52D8C0ABF0088F828 /* If.playground */,
+				388D68C12D8BE57C0088F828 /* ForLoop.playground */,
+				388D68C02D8BC8210088F828 /* Array.playground */,
+				388D68C72D8BE5EC0088F828 /* WordRelay */,
+				388D68CD2D8BE5EF0088F828 /* WordRelayTests */,
+				388D68D12D8BE5F20088F828 /* WordRelayUITests */,
 				388D68942D8BAC870088F828 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,42 @@
 				388D68AD2D8BAC880088F828 /* WordRelayUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		388D68C32D8BE5EC0088F828 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				388D68C22D8BE5EC0088F828 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		388D68C72D8BE5EC0088F828 /* WordRelay */ = {
+			isa = PBXGroup;
+			children = (
+				388D68C32D8BE5EC0088F828 /* Preview Content */,
+				388D68C42D8BE5EC0088F828 /* Assets.xcassets */,
+				388D68C52D8BE5EC0088F828 /* ContentView.swift */,
+				388D68C62D8BE5EC0088F828 /* WordRelayApp.swift */,
+			);
+			path = WordRelay;
+			sourceTree = "<group>";
+		};
+		388D68CD2D8BE5EF0088F828 /* WordRelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				388D68CC2D8BE5EF0088F828 /* WordRelayTests.swift */,
+			);
+			path = WordRelayTests;
+			sourceTree = "<group>";
+		};
+		388D68D12D8BE5F20088F828 /* WordRelayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388D68CF2D8BE5F20088F828 /* WordRelayUITests.swift */,
+				388D68D02D8BE5F20088F828 /* WordRelayUITestsLaunchTests.swift */,
+			);
+			path = WordRelayUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +149,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				388D68952D8BAC870088F828 /* WordRelay */,
 			);
 			name = WordRelay;
 			packageProductDependencies = (
@@ -130,9 +170,6 @@
 			dependencies = (
 				388D68A52D8BAC880088F828 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				388D68A62D8BAC880088F828 /* WordRelayTests */,
-			);
 			name = WordRelayTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +189,6 @@
 			);
 			dependencies = (
 				388D68AF2D8BAC880088F828 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				388D68B02D8BAC880088F828 /* WordRelayUITests */,
 			);
 			name = WordRelayUITests;
 			packageProductDependencies = (
@@ -212,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388D68CA2D8BE5EC0088F828 /* Preview Assets.xcassets in Resources */,
+				388D68CB2D8BE5EC0088F828 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388D68C82D8BE5EC0088F828 /* ContentView.swift in Sources */,
+				388D68C92D8BE5EC0088F828 /* WordRelayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388D68CE2D8BE5EF0088F828 /* WordRelayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388D68D22D8BE5F20088F828 /* WordRelayUITests.swift in Sources */,
+				388D68D32D8BE5F20088F828 /* WordRelayUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordRelay/Preview Content\"";
+				DEVELOPMENT_TEAM = 56243WBB53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -408,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agmma.WordRelay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inflearn.WordRelay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WordRelay/Preview Content\"";
+				DEVELOPMENT_TEAM = 56243WBB53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +479,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agmma.WordRelay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inflearn.WordRelay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
